@@ -2,7 +2,7 @@ from collections import Counter
 
 def demo_dictionary_creation():
 
-    # Create empty dictionary
+    ## Part A: Create empty dictionary
 
     # Method_#1 : using braces
     dict_domain = {}
@@ -25,7 +25,7 @@ def demo_dictionary_creation():
     
 
 
-    # Create dictionary with given keys and default value
+    ## Part B: Create dictionary with given keys and default value
 
     # Method_#1 : using a list of given keys
     country = ["Japan", "France", "United Kingdom"]
@@ -38,7 +38,7 @@ def demo_dictionary_creation():
 
 
 
-    # Create dictionary with given key-value 
+    ## Part C: Create dictionary with given key-value 
 
     # Method_#1 : Initialization with literals
     dict_domain = { "Japan":".jp", "France":".fr", "United Kingdom" : ".uk" }
